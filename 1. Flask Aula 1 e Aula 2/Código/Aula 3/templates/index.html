@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Victor P.</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color:rgb(36, 36, 36);
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .resume-card {
+            background:rgb(53, 53, 53);
+            width: 100%;
+            max-width: 600px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgb(187, 47, 47);
+            border-top: 8px solidrgb(201, 167, 167);
+        }
+
+        h1 {
+            color:rgb(187, 47, 47);
+            font-size: 2rem;
+            margin-bottom: 5px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+            color:rgb(153, 153, 153);
+            font-size: 0.95rem;
+        }
+
+        .info {
+            font-weight: 600;
+            color:rgb(187, 47, 47);
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #eee;
+            margin: 25px 0;
+        }
+
+        h3 {
+            color:#ff8484;
+            font-size: 1.2rem;
+            border-left: 4px solid rgb(187, 47, 47);
+            padding-left: 10px;
+            margin-top: 25px;
+        }
+
+        p {
+            margin: 10px 0;
+            color: rgb(255, 255, 255)
+        }
+
+        .experience-item, .education-item {
+            padding: 5px 0;
+        }
+
+        .resume-card:hover {
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-card">
+        <h1>Currículo Profissional</h1>
+        
+        <div class="contact-info">
+            <p><span class="info">Nome:</span> Victor P.</p>
+            <p><span class="info">E-mail:</span> vitinhodograu@bostamail.com</p>
+        </div>
+
+        <hr>
+
+        <div class="education-item">
+            <h3>Formação Acadêmica</h3>
+            <p>Cursando - Ensino médio técnico em informática</p>
+        </div>
+        
+        <div class="experience-item">
+            <h3>Experiência Profissional</h3>
+            <p><strong>Estagiário em escritório de advocacia</strong><br>
+            <small>4 meses | Suporte técnico</small></p>
+        </div>
+    </div>
+
+</body>
+</html>
